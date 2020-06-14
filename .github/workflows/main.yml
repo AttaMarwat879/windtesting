@@ -29,4 +29,4 @@ jobs:
     - name: install surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./ attamarwatwind2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ attta9999.surge.sh --token ${{secrets.SURGE_TOKEN}}
