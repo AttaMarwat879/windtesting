@@ -29,4 +29,4 @@ jobs:
     - name: install surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./ attta999900990.surge.sh --token "d4eeda56091c6ca927bfe8bd464a62e4"
+      run: surge ./ attawindtest8790.surge.sh --token "d4eeda56091c6ca927bfe8bd464a62e4"
