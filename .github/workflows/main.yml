@@ -13,7 +13,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: window-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -22,7 +22,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Installing Node
-    - uses: action/setup-node@v2-beta
+      uses: action/setup-node@v2-beta
       with:
         node-version: 12
 
